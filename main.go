@@ -14,5 +14,11 @@ func main() {
 
 	color.Red("--------- Tutorial 02 ---------")
 	tutorial02.PrintMeMessage("Hello World")
+	res, err := tutorial02.Division(10, 2)
+	if err == nil {
+		color.Yellow("Result: %d", res)
+	}
+
+	tutorial02.ControlStatements(10, 20)
 
 }

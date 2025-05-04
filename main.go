@@ -36,4 +36,27 @@ func main() {
 	color.Red("--------- Tutorial 05 :: Structs and Interfaces---------")
 	tutorial05.Structs()
 
+	hp_laptop := tutorial05.Laptop{
+		Brand: "HP",
+		Model: "Pavilion",
+		Price: 50000,
+	}
+
+	hp_laptop.PrintDetails()
+
+	hp_laptop.UpdatePrice(60000)
+	hp_laptop.PrintDetails()
+
+	rectangle := tutorial05.Rectangle{
+		Width:  10,
+		Height: 5,
+	}
+
+	circle := tutorial05.Circle{
+		Radius: 7,
+	}
+
+	tutorial05.PrintShapeDetails(&rectangle)
+	tutorial05.PrintShapeDetails(&circle)
+
 }

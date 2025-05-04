@@ -4,6 +4,8 @@ import (
 	tutorial01 "github.com/dayananda30/sde/tutorial01"
 	tutorial02 "github.com/dayananda30/sde/tutorial02"
 	"github.com/dayananda30/sde/tutorial03"
+	"github.com/dayananda30/sde/tutorial04"
+	"github.com/dayananda30/sde/tutorial05"
 	"github.com/fatih/color"
 )
 
@@ -27,5 +29,11 @@ func main() {
 	tutorial03.Slices()
 	tutorial03.Maps()
 	tutorial03.Loops()
+
+	color.Red("--------- Tutorial 04 :: Strings Runes and Bytes ---------")
+	tutorial04.Strings()
+
+	color.Red("--------- Tutorial 05 :: Structs and Interfaces---------")
+	tutorial05.Structs()
 
 }

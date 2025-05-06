@@ -6,6 +6,7 @@ import (
 	"github.com/dayananda30/sde/tutorial03"
 	"github.com/dayananda30/sde/tutorial04"
 	"github.com/dayananda30/sde/tutorial05"
+	"github.com/dayananda30/sde/tutorial06"
 	"github.com/fatih/color"
 )
 
@@ -58,5 +59,8 @@ func main() {
 
 	tutorial05.PrintShapeDetails(&rectangle)
 	tutorial05.PrintShapeDetails(&circle)
+
+	color.Red("--------- Tutorial 06 :: Pointers ---------")
+	tutorial06.PointerBaiscs()
 
 }

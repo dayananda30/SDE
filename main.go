@@ -62,5 +62,6 @@ func main() {
 
 	color.Red("--------- Tutorial 06 :: Pointers ---------")
 	tutorial06.PointerBaiscs()
+	tutorial06.SlicesUnderTheHood()
 
 }

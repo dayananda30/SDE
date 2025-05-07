@@ -7,6 +7,7 @@ import (
 	"github.com/dayananda30/sde/tutorial04"
 	"github.com/dayananda30/sde/tutorial05"
 	"github.com/dayananda30/sde/tutorial06"
+	"github.com/dayananda30/sde/tutorial07"
 	"github.com/fatih/color"
 )
 
@@ -63,5 +64,11 @@ func main() {
 	color.Red("--------- Tutorial 06 :: Pointers ---------")
 	tutorial06.PointerBaiscs()
 	tutorial06.SlicesUnderTheHood()
+
+	color.Red("--------- Tutorial 07 :: Goroutines and Channels ---------")
+	tutorial07.WithoutGoroutines()
+	tutorial07.WithGoroutines()
+	tutorial07.WaitGroups()
+	tutorial07.Mutex()
 
 }
